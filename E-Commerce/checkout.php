@@ -42,8 +42,8 @@
                 <div class="col-md-12 col-sm-6">
                     <div class="header-right">
                         <ul class="list-unstyled list-inline">
-                            <li><a href="login.html"><i class="fa fa-user"></i> Login</a></li>
-                            <li><a href="#"><i class="fa fa-user"></i> My Account</a></li>
+                            <li><a href="login.php"><i class="fa fa-user"></i> Login</a></li>
+                            <li><a href="#"><i class="fa fa-user"></i> Register</a></li>
                         </ul>
                     </div>
                 </div>
