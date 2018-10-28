@@ -137,7 +137,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <div class="single-promo promo1">
+                    <div class="single-promo promo1" class="tablinks" onclick="navtab(event, 'trade', 'tradeL')" href="#">
                         <i class="fa fa-refresh"></i>
                         <p>Swap Items</p>
                     </div>
@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="single-promo promo4">
+                    <div class="single-promo promo4" class="tablinks" onclick="navtab(event, 'shop', 'shopL')" href="#">
                         <i class="fa fa-gift"></i>
                         <p>New products</p>
                     </div>
