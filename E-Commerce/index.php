@@ -34,8 +34,9 @@
                 <div class="col-md-12 col-sm-6">
                     <div class="header-right">
                         <ul class="list-unstyled list-inline">
-                            <li><a href="login.php"><i class="fa fa-user"></i> Login</a></li>
-                            <li><a href="register.php"><i class="fa fa-user"></i>  Register</a></li>
+                            <li><a href="login.php"><i class="fa fa-upload"></i> Login</a></li>
+                            <li><a href="register.php"><i class="fa fa-list-alt"></i>  Register</a></li>
+                            <li><a href="register.php"><i class="fa fa-user"></i>  My Account</a></li>
                         </ul>
                     </div>
                 </div>
@@ -62,20 +63,16 @@
     </div> --> <!-- End site branding area -->
     
     <div class="mainmenu-area">
+
         <div class="container">
             <div class="row">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div> 
+
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li id="indexL" class="tab"><a class="tablinks" onclick="navtab(event, 'index', 'indexL')" id="onLoad" href="#">Silk Road</a></li>
-                        <li id="shopL" class="tab"><a class="tablinks" onclick="navtab(event, 'shop', 'shopL')" href="#">Shop page</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li id="shopL" class="tab"><a class="tablinks" onclick="navtab(event, 'shop', 'shopL')" href="#">Shop</a></li>
                         <li id="tradeL" class="tab"><a class="tablinks" onclick="navtab(event, 'trade', 'tradeL')" href="#">Trade product</a></li>
                         <li id="cartL" class="tab"><a class="tablinks" onclick="navtab(event, 'cart', 'cartL')" href="#">Cart</a></li>
                         <li id="shopL" class="tab"><a href="checkout.php">Checkout</a></li>

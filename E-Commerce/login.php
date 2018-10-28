@@ -54,22 +54,13 @@
 					</div>
 					
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn"> <a href="index.html">
+						<button class="login100-form-btn"> <a href="index.php">
 							Login</a>
 						</button>
 					</div>
 
-					<div class="text-center p-t-12">
-						<span class="txt1">
-							Forgot
-						</span>
-						<a class="txt2" href="#">
-							Username / Password?
-						</a>
-					</div>
-
-					<div class="text-center p-t-136">
-						<a class="txt2" href="#">
+					<div class="text-center p-t-130">
+						<a class="txt2" href="register.php">
 							Create your Account
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
@@ -93,7 +84,7 @@
 	<script src="vendor/tilt/tilt.jquery.min.js"></script>
 	<script >
 		$('.js-tilt').tilt({
-			scale: 1.1
+			scale: 1.0
 		})
 	</script>
 	
