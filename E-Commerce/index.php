@@ -4,7 +4,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,14 +20,33 @@
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
-  </head>
-  <body>
-   
+    <style type="text/css">
+    #categories1
+    {
+        padding: 8px;
+        border: solid 1px rgb(217, 217, 217);
+        border-radius: 3px;
+        height: 145px;
+        cursor: pointer;
+        background-color: #7DA1D5;
+        color:white;
+        font-family: raleway;
+    }
+
+
+</style>
+</head>
+<body>
+
     <div class="header-area">
         <div class="container">
             <div class="row">
@@ -75,196 +94,196 @@
                         <li id="shopL" class="tab"><a class="tablinks" onclick="navtab(event, 'shop', 'shopL')" href="#">Shop</a></li>
                         <li id="tradeL" class="tab"><a class="tablinks" onclick="navtab(event, 'trade', 'tradeL')" href="#">Trade product</a></li>
                         <li id="cartL" class="tab"><a class="tablinks" onclick="navtab(event, 'cart', 'cartL')" href="#">Cart</a></li>
-                        <li id="checkoutL" class="tab"><a class="tablinks" onclick="navtab(event, 'checkout', 'checkoutL')" href="#">Checkout</a></li>
+                        <li id="checkoutL" class="tab"><a class="tablinks" onclick="navtab(event, 'checkout', 'checkoutL')" href="#">Check out</a></li>
                     </ul>
                 </div>  
             </div>
         </div>
     </div> <!-- End mainmenu area -->
 
-<div class="tabcontent" id="index">
-    <div class="slider-area">
+    <div class="tabcontent" id="index">
+        <div class="slider-area">
         	<!-- Slider -->
-			<div class="block-slider block-slider4">
-				<ul class="" id="bxslider-home4">
-					<li>
-						<img src="img/h4-slide.png" alt="Slide">
-						<div class="caption-group">
-							<h2 class="caption title">
-								iPhone <span class="primary">6 <strong>Plus</strong></span>
-							</h2>
-							<h4 class="caption subtitle">Dual SIM</h4>
-							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
-						</div>
-					</li>
-					<li><img src="img/h4-slide2.png" alt="Slide">
-						<div class="caption-group">
-							<h2 class="caption title">
-								by one, get one <span class="primary">50% <strong>off</strong></span>
-							</h2>
-							<h4 class="caption subtitle">school supplies & backpacks.*</h4>
-							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
-						</div>
-					</li>
-					<li><img src="img/h4-slide3.png" alt="Slide">
-						<div class="caption-group">
-							<h2 class="caption title">
-								Apple <span class="primary">Store <strong>Ipod</strong></span>
-							</h2>
-							<h4 class="caption subtitle">Select Item</h4>
-							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
-						</div>
-					</li>
-					<li><img src="img/h4-slide4.png" alt="Slide">
-						<div class="caption-group">
-						  <h2 class="caption title">
-								Apple <span class="primary">Store <strong>Ipod</strong></span>
-							</h2>
-							<h4 class="caption subtitle">& Phone</h4>
-							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<!-- ./Slider -->
-    </div> <!-- End slider area -->
-    
-    <div class="promo-area">
-        <div class="zigzag-bottom"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-promo promo1" class="tablinks" onclick="navtab(event, 'trade', 'tradeL')" href="#">
-                        <i class="fa fa-refresh"></i>
-                        <p>Swap Items</p>
-                    </div>
+         <div class="block-slider block-slider4">
+            <ul class="" id="bxslider-home4">
+               <li>
+                  <img src="img/h4-slide.png" alt="Slide">
+                  <div class="caption-group">
+                     <h2 class="caption title">
+                        iPhone <span class="primary">6 <strong>Plus</strong></span>
+                    </h2>
+                    <h4 class="caption subtitle">Dual SIM</h4>
+                    <a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-promo promo2">
-                        <i class="fa fa-truck"></i>
-                        <p>International shipping</p>
-                    </div>
+            </li>
+            <li><img src="img/h4-slide2.png" alt="Slide">
+              <div class="caption-group">
+                 <h2 class="caption title">
+                    by one, get one <span class="primary">50% <strong>off</strong></span>
+                </h2>
+                <h4 class="caption subtitle">school supplies & backpacks.*</h4>
+                <a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
+            </div>
+        </li>
+        <li><img src="img/h4-slide3.png" alt="Slide">
+          <div class="caption-group">
+             <h2 class="caption title">
+                Apple <span class="primary">Store <strong>Ipod</strong></span>
+            </h2>
+            <h4 class="caption subtitle">Select Item</h4>
+            <a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
+        </div>
+    </li>
+    <li><img src="img/h4-slide4.png" alt="Slide">
+      <div class="caption-group">
+        <h2 class="caption title">
+            Apple <span class="primary">Store <strong>Ipod</strong></span>
+        </h2>
+        <h4 class="caption subtitle">& Phone</h4>
+        <a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
+    </div>
+</li>
+</ul>
+</div>
+<!-- ./Slider -->
+</div> <!-- End slider area -->
+
+<div class="promo-area">
+    <div class="zigzag-bottom"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="single-promo promo1" class="tablinks" onclick="navtab(event, 'trade', 'tradeL')" href="#">
+                    <i class="fa fa-refresh"></i>
+                    <p>Swap Items</p>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-promo promo3">
-                        <i class="fa fa-lock"></i>
-                        <p>Secure payments</p>
-                    </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-promo promo2">
+                    <i class="fa fa-truck"></i>
+                    <p>International shipping</p>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-promo promo4" class="tablinks" onclick="navtab(event, 'shop', 'shopL')" href="#">
-                        <i class="fa fa-gift"></i>
-                        <p>New products</p>
-                    </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-promo promo3">
+                    <i class="fa fa-lock"></i>
+                    <p>Secure payments</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="single-promo promo4" class="tablinks" onclick="navtab(event, 'shop', 'shopL')" href="#">
+                    <i class="fa fa-gift"></i>
+                    <p>New products</p>
                 </div>
             </div>
         </div>
-    </div> <!-- End promo area -->
-    
-    <div class="maincontent-area">
-        <div class="zigzag-bottom"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="latest-product">
-                        <h2 class="section-title">Latest Products</h2>
-                        <div class="product-carousel">
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/product-1.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
-                                
-                                <h2><a href="single-product.html">Samsung Galaxy s5- 2015</a></h2>
-                                
-                                <div class="product-carousel-price">
-                                    <ins>$700.00</ins> <del>$100.00</del>
-                                </div> 
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/product-2.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link" ><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
-                                
-                                <h2>Nokia Lumia 1320</h2>
-                                <div class="product-carousel-price">
-                                    <ins>$899.00</ins> <del>$999.00</del>
-                                </div> 
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/product-3.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
-                                </div>
-                                
-                                <h2>LG Leon 2015</h2>
+    </div>
+</div> <!-- End promo area -->
 
-                                <div class="product-carousel-price">
-                                    <ins>$400.00</ins> <del>$425.00</del>
-                                </div>                                 
-                            </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/product-4.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
+<div class="maincontent-area">
+    <div class="zigzag-bottom"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="latest-product">
+                    <h2 class="section-title">Latest Products</h2>
+                    <div class="product-carousel">
+                        <div class="single-product">
+                            <div class="product-f-image">
+                                <img src="img/product-1.jpg" alt="">
+                                <div class="product-hover">
+                                    <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                 </div>
-                                
-                                <h2><a href="single-product.html">Sony microsoft</a></h2>
-
-                                <div class="product-carousel-price">
-                                    <ins>$200.00</ins> <del>$225.00</del>
-                                </div>                            
                             </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/product-5.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
+
+                            <h2><a href="single-product.html">Samsung Galaxy s5- 2015</a></h2>
+
+                            <div class="product-carousel-price">
+                                <ins>$700.00</ins> <del>$100.00</del>
+                            </div> 
+                        </div>
+                        <div class="single-product">
+                            <div class="product-f-image">
+                                <img src="img/product-2.jpg" alt="">
+                                <div class="product-hover">
+                                    <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    <a href="single-product.html" class="view-details-link" ><i class="fa fa-link"></i> See details</a>
                                 </div>
-                                
-                                <h2>iPhone 6</h2>
-
-                                <div class="product-carousel-price">
-                                    <ins>$1200.00</ins> <del>$1355.00</del>
-                                </div>                                 
                             </div>
-                            <div class="single-product">
-                                <div class="product-f-image">
-                                    <img src="img/product-6.jpg" alt="">
-                                    <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
-                                    </div>
+
+                            <h2>Nokia Lumia 1320</h2>
+                            <div class="product-carousel-price">
+                                <ins>$899.00</ins> <del>$999.00</del>
+                            </div> 
+                        </div>
+                        <div class="single-product">
+                            <div class="product-f-image">
+                                <img src="img/product-3.jpg" alt="">
+                                <div class="product-hover">
+                                    <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
                                 </div>
-                                
-                                <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
-
-                                <div class="product-carousel-price">
-                                    <ins>$400.00</ins>
-                                </div>                            
                             </div>
+
+                            <h2>LG Leon 2015</h2>
+
+                            <div class="product-carousel-price">
+                                <ins>$400.00</ins> <del>$425.00</del>
+                            </div>                                 
+                        </div>
+                        <div class="single-product">
+                            <div class="product-f-image">
+                                <img src="img/product-4.jpg" alt="">
+                                <div class="product-hover">
+                                    <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                </div>
+                            </div>
+
+                            <h2><a href="single-product.html">Sony microsoft</a></h2>
+
+                            <div class="product-carousel-price">
+                                <ins>$200.00</ins> <del>$225.00</del>
+                            </div>                            
+                        </div>
+                        <div class="single-product">
+                            <div class="product-f-image">
+                                <img src="img/product-5.jpg" alt="">
+                                <div class="product-hover">
+                                    <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                </div>
+                            </div>
+
+                            <h2>iPhone 6</h2>
+
+                            <div class="product-carousel-price">
+                                <ins>$1200.00</ins> <del>$1355.00</del>
+                            </div>                                 
+                        </div>
+                        <div class="single-product">
+                            <div class="product-f-image">
+                                <img src="img/product-6.jpg" alt="">
+                                <div class="product-hover">
+                                    <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                </div>
+                            </div>
+
+                            <h2><a href="single-product.html">Samsung gallaxy note 4</a></h2>
+
+                            <div class="product-carousel-price">
+                                <ins>$400.00</ins>
+                            </div>                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> <!-- End main content area -->
-    
+    </div>
+</div> <!-- End main content area -->
+
     <!-- <div class="brands-area">
         <div class="zigzag-bottom"></div>
         <div class="container">
@@ -440,6 +459,8 @@
     </div> <!-- End product widget area -->
 </div>
 
+<!-- Shop -->
+
 <div class="tabcontent" id="shop">
 
     <div class="product-big-title-area">
@@ -452,8 +473,40 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div><br>
     
+    <div class="product-category">
+        <div class="container">
+            <center><div class="row">
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-home" style="text-decoration: none;"></a></h2><h4>Furniture</h4>
+                </div>
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-desktop" style="text-decoration: none;"></a></h2><h4>Home Appliances</h4>
+                </div>
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-life-bouy" style="text-decoration: none;"></a></h2><h4>Sports, Books & Hobbies</h4>
+                </div>
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-tablet style="text-decoration: none;"></a></h2><h4>Electronic Device</h4>
+                </div>
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-plug" style="text-decoration: none;"></a></h2><h4>Electronic Accesories</h4>
+                </div>
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-umbrella" style="text-decoration: none;"></a></h2><h4>Fashion Accesories</h4>
+                </div>
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-male" style="text-decoration: none;"></a></h2><h4>Men's Clothing</h4>
+                </div>
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-female" style="text-decoration: none;"></a></h2><h4>Women's Clothing</h4>
+                </div>
+            </div></center>
+        </div>
+    </div>
+
+
     
     <div class="single-product-area">
         <div class="zigzag-bottom"></div>
@@ -671,6 +724,7 @@
 
 </div>
 
+<!-- Trade -->
 
 <div class="tabcontent" id="trade">
 
@@ -684,8 +738,40 @@
                 </div>
             </div>
         </div>
+    </div><br>
+
+    <div class="product-category">
+        <div class="container">
+            <center><div class="row">
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-home" style="text-decoration: none;"></a></h2><h4>Furniture</h4>
+                </div>
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-desktop" style="text-decoration: none;"></a></h2><h4>Home Appliances</h4>
+                </div>
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-life-bouy" style="text-decoration: none;"></a></h2><h4>Sports, Books & Hobbies</h4>
+                </div>
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-tablet style="text-decoration: none;"></a></h2><h4>Electronic Device</h4>
+                </div>
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-plug" style="text-decoration: none;"></a></h2><h4>Electronic Accesories</h4>
+                </div>
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-umbrella" style="text-decoration: none;"></a></h2><h4>Fashion Accesories</h4>
+                </div>
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-male" style="text-decoration: none;"></a></h2><h4>Men's Clothing</h4>
+                </div>
+                <div class="col-lg-3" id="categories1">
+                    <br><h2><a href="" class="fa fa-female" style="text-decoration: none;"></a></h2><h4>Women's Clothing</h4>
+                </div>
+            </div></center>
+        </div>
     </div>
-    
+
+
     
     <div class="single-product-area">
         <div class="zigzag-bottom"></div>
@@ -926,8 +1012,10 @@
     </div> 
 </div>
 
+<!-- Cart -->
+
 <div class="tabcontent" id="cart">
-    
+
     <div class="product-big-title-area">
         <div class="container">
             <div class="row">
@@ -1388,14 +1476,16 @@
     </div>
 </div>
 
+<!-- Checkout -->
+
 <div class="tabcontent" id="checkout">
-    
+
     <div class="product-big-title-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="product-bit-title text-center">
-                        <h2>Shopping Cart</h2>
+                        <h2>Check Out</h2>
                     </div>
                 </div>
             </div>
@@ -1845,9 +1935,9 @@
                                     <div class="col-2">
                                         <div class="woocommerce-shipping-fields">
                                             <h3 id="ship-to-different-address">
-                        <label class="checkbox" for="ship-to-different-address-checkbox">Ship to a different address?</label>
-                        <input type="checkbox" value="1" name="ship_to_different_address" checked="checked" class="input-checkbox" id="ship-to-different-address-checkbox">
-                        </h3>
+                                                <label class="checkbox" for="ship-to-different-address-checkbox">Ship to a different address?</label>
+                                                <input type="checkbox" value="1" name="ship_to_different_address" checked="checked" class="input-checkbox" id="ship-to-different-address-checkbox">
+                                            </h3>
                                             <div class="shipping_address" style="display: block;">
                                                 <p id="shipping_country_field" class="form-row form-row-wide address-field update_totals_on_change validate-required woocommerce-validated">
                                                     <label class="" for="shipping_country">Country <abbr title="required" class="required">*</abbr>
@@ -2180,211 +2270,211 @@
                                             <tr class="cart_item">
                                                 <td class="product-name">
                                                     Ship Your Idea <strong class="product-quantity">× 1</strong> </td>
-                                                <td class="product-total">
-                                                    <span class="amount">£15.00</span> </td>
-                                            </tr>
-                                        </tbody>
-                                        <tfoot>
+                                                    <td class="product-total">
+                                                        <span class="amount">£15.00</span> </td>
+                                                    </tr>
+                                                </tbody>
+                                                <tfoot>
 
-                                            <tr class="cart-subtotal">
-                                                <th>Cart Subtotal</th>
-                                                <td><span class="amount">£15.00</span>
-                                                </td>
-                                            </tr>
+                                                    <tr class="cart-subtotal">
+                                                        <th>Cart Subtotal</th>
+                                                        <td><span class="amount">£15.00</span>
+                                                        </td>
+                                                    </tr>
 
-                                            <tr class="shipping">
-                                                <th>Shipping and Handling</th>
-                                                <td>
+                                                    <tr class="shipping">
+                                                        <th>Shipping and Handling</th>
+                                                        <td>
 
-                                                    Free Shipping
-                                                    <input type="hidden" class="shipping_method" value="free_shipping" id="shipping_method_0" data-index="0" name="shipping_method[0]">
-                                                </td>
-                                            </tr>
-
-
-                                            <tr class="order-total">
-                                                <th>Order Total</th>
-                                                <td><strong><span class="amount">£15.00</span></strong> </td>
-                                            </tr>
-
-                                        </tfoot>
-                                    </table>
+                                                            Free Shipping
+                                                            <input type="hidden" class="shipping_method" value="free_shipping" id="shipping_method_0" data-index="0" name="shipping_method[0]">
+                                                        </td>
+                                                    </tr>
 
 
-                                    <div id="payment">
-                                        <ul class="payment_methods methods">
-                                            <li class="payment_method_bacs">
-                                                <input type="radio" data-order_button_text="" checked="checked" value="bacs" name="payment_method" class="input-radio" id="payment_method_bacs">
-                                                <label for="payment_method_bacs">Direct Bank Transfer </label>
-                                                <div class="payment_box payment_method_bacs">
-                                                    <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+                                                    <tr class="order-total">
+                                                        <th>Order Total</th>
+                                                        <td><strong><span class="amount">£15.00</span></strong> </td>
+                                                    </tr>
+
+                                                </tfoot>
+                                            </table>
+
+
+                                            <div id="payment">
+                                                <ul class="payment_methods methods">
+                                                    <li class="payment_method_bacs">
+                                                        <input type="radio" data-order_button_text="" checked="checked" value="bacs" name="payment_method" class="input-radio" id="payment_method_bacs">
+                                                        <label for="payment_method_bacs">Direct Bank Transfer </label>
+                                                        <div class="payment_box payment_method_bacs">
+                                                            <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="payment_method_cheque">
+                                                        <input type="radio" data-order_button_text="" value="cheque" name="payment_method" class="input-radio" id="payment_method_cheque">
+                                                        <label for="payment_method_cheque">Cheque Payment </label>
+                                                        <div style="display:none;" class="payment_box payment_method_cheque">
+                                                            <p>Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="payment_method_paypal">
+                                                        <input type="radio" data-order_button_text="Proceed to PayPal" value="paypal" name="payment_method" class="input-radio" id="payment_method_paypal">
+                                                        <label for="payment_method_paypal">PayPal <img alt="PayPal Acceptance Mark" src="https://www.paypalobjects.com/webstatic/mktg/Logo/AM_mc_vs_ms_ae_UK.png"><a title="What is PayPal?" onclick="javascript:window.open('https://www.paypal.com/gb/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;" class="about_paypal" href="https://www.paypal.com/gb/webapps/mpp/paypal-popup">What is PayPal?</a>
+                                                        </label>
+                                                        <div style="display:none;" class="payment_box payment_method_paypal">
+                                                            <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+
+                                                <div class="form-row place-order">
+
+                                                    <input type="submit" data-value="Place order" value="Place order" id="place_order" name="woocommerce_checkout_place_order" class="button alt">
+
+
                                                 </div>
-                                            </li>
-                                            <li class="payment_method_cheque">
-                                                <input type="radio" data-order_button_text="" value="cheque" name="payment_method" class="input-radio" id="payment_method_cheque">
-                                                <label for="payment_method_cheque">Cheque Payment </label>
-                                                <div style="display:none;" class="payment_box payment_method_cheque">
-                                                    <p>Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
-                                                </div>
-                                            </li>
-                                            <li class="payment_method_paypal">
-                                                <input type="radio" data-order_button_text="Proceed to PayPal" value="paypal" name="payment_method" class="input-radio" id="payment_method_paypal">
-                                                <label for="payment_method_paypal">PayPal <img alt="PayPal Acceptance Mark" src="https://www.paypalobjects.com/webstatic/mktg/Logo/AM_mc_vs_ms_ae_UK.png"><a title="What is PayPal?" onclick="javascript:window.open('https://www.paypal.com/gb/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;" class="about_paypal" href="https://www.paypal.com/gb/webapps/mpp/paypal-popup">What is PayPal?</a>
-                                                </label>
-                                                <div style="display:none;" class="payment_box payment_method_paypal">
-                                                    <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.</p>
-                                                </div>
-                                            </li>
-                                        </ul>
 
-                                        <div class="form-row place-order">
+                                                <div class="clear"></div>
 
-                                            <input type="submit" data-value="Place order" value="Place order" id="place_order" name="woocommerce_checkout_place_order" class="button alt">
-
-
+                                            </div>
                                         </div>
+                                    </form>
 
-                                        <div class="clear"></div>
-
-                                    </div>
-                                </div>
-                            </form>
-
-                        </div>                       
-                    </div>                    
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-    <div class="footer-top-area">
-        <div class="zigzag-bottom"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="footer-about-us">
-                        <h2>Silk<span>Road</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
-                        <div class="footer-social">
-                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-3 col-sm-6">
-                    <div class="footer-menu">
-                        <h2 class="footer-wid-title">User Navigation </h2>
-                        <ul>
-                            <li><a href="#">My account</a></li>
-                            <li><a href="#">Order history</a></li>
-                            <li><a href="#">Wishlist</a></li>
-                            <li><a href="#">Vendor contact</a></li>
-                            <li><a href="#">Front page</a></li>
-                        </ul>                        
-                    </div>
-                </div>
-                
-                <div class="col-md-3 col-sm-6">
-                    <div class="footer-menu">
-                        <h2 class="footer-wid-title">Categories</h2>
-                        <ul>
-                            <li><a href="#">Mobile Phone</a></li>
-                            <li><a href="#">Home accesseries</a></li>
-                            <li><a href="#">LED TV</a></li>
-                            <li><a href="#">Computer</a></li>
-                            <li><a href="#">Gadets</a></li>
-                        </ul>                        
-                    </div>
-                </div>
-                
-                <div class="col-md-3 col-sm-6">
-                    <div class="footer-newsletter">
-                        <h2 class="footer-wid-title">Newsletter</h2>
-                        <p>Sign up to our newsletter and get exclusive deals you wont find anywhere else straight to your inbox!</p>
-                        <div class="newsletter-form">
-                            <form action="#">
-                                <input type="email" placeholder="Type your email">
-                                <input type="submit" value="Subscribe">
-                            </form>
+                                </div>                       
+                            </div>                    
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> <!-- End footer top area -->
-    
-    <div class="footer-bottom-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="copyright">
-                        <p>&copy; 2015 uCommerce. All Rights Reserved. <a href="http://www.freshdesignweb.com" target="_blank">freshDesignweb.com</a></p>
+
+        <div class="footer-top-area">
+            <div class="zigzag-bottom"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-about-us">
+                            <h2>Silk<span>Road</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
+                            <div class="footer-social">
+                                <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+                                <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="footer-card-icon">
-                        <i class="fa fa-cc-discover"></i>
-                        <i class="fa fa-cc-mastercard"></i>
-                        <i class="fa fa-cc-paypal"></i>
-                        <i class="fa fa-cc-visa"></i>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-menu">
+                            <h2 class="footer-wid-title">User Navigation </h2>
+                            <ul>
+                                <li><a href="#">My account</a></li>
+                                <li><a href="#">Order history</a></li>
+                                <li><a href="#">Wishlist</a></li>
+                                <li><a href="#">Vendor contact</a></li>
+                                <li><a href="#">Front page</a></li>
+                            </ul>                        
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-menu">
+                            <h2 class="footer-wid-title">Categories</h2>
+                            <ul>
+                                <li><a href="#">Mobile Phone</a></li>
+                                <li><a href="#">Home accesseries</a></li>
+                                <li><a href="#">LED TV</a></li>
+                                <li><a href="#">Computer</a></li>
+                                <li><a href="#">Gadets</a></li>
+                            </ul>                        
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-newsletter">
+                            <h2 class="footer-wid-title">Newsletter</h2>
+                            <p>Sign up to our newsletter and get exclusive deals you wont find anywhere else straight to your inbox!</p>
+                            <div class="newsletter-form">
+                                <form action="#">
+                                    <input type="email" placeholder="Type your email">
+                                    <input type="submit" value="Subscribe">
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div> <!-- End footer bottom area -->
-   
-    <!-- Latest jQuery form server -->
-    <script src="https://code.jquery.com/jquery.min.js"></script>
-    
-    <!-- Bootstrap JS form CDN -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    
-    <!-- jQuery sticky menu -->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    
-    <!-- jQuery easing -->
-    <script src="js/jquery.easing.1.3.min.js"></script>
-    
-    <!-- Main Script -->
-    <script src="js/main.js"></script>
-    
-    <!-- Slider -->
-    <script type="text/javascript" src="js/bxslider.min.js"></script>
-	<script type="text/javascript" src="js/script.slider.js"></script>
-  </body>
-<script>
-    
+        </div> <!-- End footer top area -->
 
-    function navtab(evt, navi, list) {
-        var i, tabcontent, tablinks;
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="copyright">
+                            <p>&copy; 2015 uCommerce. All Rights Reserved. <a href="http://www.freshdesignweb.com" target="_blank">freshDesignweb.com</a></p>
+                        </div>
+                    </div>
 
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
+                    <div class="col-md-4">
+                        <div class="footer-card-icon">
+                            <i class="fa fa-cc-discover"></i>
+                            <i class="fa fa-cc-mastercard"></i>
+                            <i class="fa fa-cc-paypal"></i>
+                            <i class="fa fa-cc-visa"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End footer bottom area -->
+
+        <!-- Latest jQuery form server -->
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+
+        <!-- Bootstrap JS form CDN -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+        <!-- jQuery sticky menu -->
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+
+        <!-- jQuery easing -->
+        <script src="js/jquery.easing.1.3.min.js"></script>
+
+        <!-- Main Script -->
+        <script src="js/main.js"></script>
+
+        <!-- Slider -->
+        <script type="text/javascript" src="js/bxslider.min.js"></script>
+        <script type="text/javascript" src="js/script.slider.js"></script>
+    </body>
+    <script>
+
+
+        function navtab(evt, navi, list) {
+            var i, tabcontent, tablinks;
+
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            tab = document.getElementsByClassName("tab");
+            for (i = 0; i < tab.length; i++) {
+                tab[i].className = tab[i].className.replace(" active", "");
+            }
+            document.getElementById(list).setAttribute("class", "tab active")
+            document.getElementById(navi).style.display = "block";
+            evt.currentTarget.className += " active";
+
         }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        tab = document.getElementsByClassName("tab");
-        for (i = 0; i < tab.length; i++) {
-            tab[i].className = tab[i].className.replace(" active", "");
-        }
-        document.getElementById(list).setAttribute("class", "tab active")
-        document.getElementById(navi).style.display = "block";
-        evt.currentTarget.className += " active";
 
-    }
-
-    document.getElementById("onLoad").click();
+        document.getElementById("onLoad").click();
 
 
-</script>
+    </script>
 
-</html>
+    </html>
