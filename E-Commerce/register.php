@@ -26,6 +26,16 @@ session_start();
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	
+    <!-- SweetAlert2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.js"></script>
+    <script type="text/javascript" src="sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="sweetalert2.js"></script>
+    <script src="vendor/jquery/jquery-3.3.1.js"></script>
+     <script src="vendor/jquery/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sweetalert2.min.css">
+    <link rel="stylesheet" type="text/css" href="sweetalert2.css">
+
+
 </head>
 <body>
 	
@@ -118,8 +128,6 @@ session_start();
 <script src="vendor/tilt/tilt.jquery.min.js"></script>
 
 
-
-
 <script>
 	$('.js-tilt').tilt({
 		scale: 1.1
@@ -143,29 +151,40 @@ session_start();
 						data:{fname:fname, lname:lname, username:username, password:password, confirm:confirm, register:register},
 						success:function(data)
 						{
-							alert("qwe");
+
 							swal({
-								type: 'success',
-								title: 'Successfully Added into Cart',
-								showConfirmButton: false,
-								timer: 1500
-								
+								title: "Success!",
+								text: "Registration successful",
+								type: "success",
+								timer: 3000,
+								showConfirmButton: false
+							}).then(function(){
+								redirect(data);
 							})
+							
 						}
 					});
+					
 				}
 				else
 				{
-					alert("wao");
 					swal({
 						type: 'error',
 						title: 'Please fill all values',
 						showConfirmButton: false,
-						timer: 1750
+						timer: 3000
 					})
 				}
 			});
 
+function redirect(response)
+{
+	var initial = response;
+	if (initial == 1)
+	{
+		location.replace("login.php");
+	}
+}
 
 </script>
 

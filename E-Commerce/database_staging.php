@@ -1,4 +1,4 @@
 <?php
 
 
-$conn = mysqli_connect("localhost", "root", "", "db_ecommerce");
+$conn = mysqli_connect("localhost", "root", "", "db_ecommerce", "3307");
