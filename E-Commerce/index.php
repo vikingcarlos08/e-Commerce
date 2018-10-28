@@ -29,6 +29,14 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- SweetAlert2 -->
+    <script type="text/javascript" src="sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="sweetalert2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sweetalert2.min.css">
+    <link rel="stylesheet" type="text/css" href="sweetalert2.css">
+
     <style type="text/css">
     #categories1
     {
@@ -104,44 +112,44 @@
     <div class="tabcontent" id="index">
         <div class="slider-area">
         	<!-- Slider -->
-         <div class="block-slider block-slider4">
+           <div class="block-slider block-slider4">
             <ul class="" id="bxslider-home4">
-               <li>
-                  <img src="img/h4-slide.png" alt="Slide">
-                  <div class="caption-group">
-                     <h2 class="caption title">
-                        iPhone <span class="primary">6 <strong>Plus</strong></span>
-                    </h2>
-                    <h4 class="caption subtitle">Dual SIM</h4>
-                    <a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
-                </div>
-            </li>
-            <li><img src="img/h4-slide2.png" alt="Slide">
+             <li>
+              <img src="img/h4-slide.png" alt="Slide">
               <div class="caption-group">
-                 <h2 class="caption title">
-                    by one, get one <span class="primary">50% <strong>off</strong></span>
-                </h2>
-                <h4 class="caption subtitle">school supplies & backpacks.*</h4>
-                <a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
-            </div>
-        </li>
-        <li><img src="img/h4-slide3.png" alt="Slide">
-          <div class="caption-group">
-             <h2 class="caption title">
-                Apple <span class="primary">Store <strong>Ipod</strong></span>
+               <h2 class="caption title">
+                iPhone <span class="primary">6 <strong>Plus</strong></span>
             </h2>
-            <h4 class="caption subtitle">Select Item</h4>
+            <h4 class="caption subtitle">Dual SIM</h4>
             <a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
         </div>
     </li>
-    <li><img src="img/h4-slide4.png" alt="Slide">
+    <li><img src="img/h4-slide2.png" alt="Slide">
       <div class="caption-group">
-        <h2 class="caption title">
-            Apple <span class="primary">Store <strong>Ipod</strong></span>
-        </h2>
-        <h4 class="caption subtitle">& Phone</h4>
-        <a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
-    </div>
+       <h2 class="caption title">
+        by one, get one <span class="primary">50% <strong>off</strong></span>
+    </h2>
+    <h4 class="caption subtitle">school supplies & backpacks.*</h4>
+    <a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
+</div>
+</li>
+<li><img src="img/h4-slide3.png" alt="Slide">
+  <div class="caption-group">
+   <h2 class="caption title">
+    Apple <span class="primary">Store <strong>Ipod</strong></span>
+</h2>
+<h4 class="caption subtitle">Select Item</h4>
+<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
+</div>
+</li>
+<li><img src="img/h4-slide4.png" alt="Slide">
+  <div class="caption-group">
+    <h2 class="caption title">
+        Apple <span class="primary">Store <strong>Ipod</strong></span>
+    </h2>
+    <h4 class="caption subtitle">& Phone</h4>
+    <a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
+</div>
 </li>
 </ul>
 </div>
