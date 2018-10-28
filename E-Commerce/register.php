@@ -1,3 +1,7 @@
+<?php
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +42,7 @@
 					</span>
 
 					<div class="wrap-input100 validate-input">
-						<input class="input100" type="text" name="fname" placeholder="First Name" id="fname">
+						<input class="input100" type="text" placeholder="First Name" id="fname" required>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-user" aria-hidden="true"></i>
@@ -46,16 +50,23 @@
 					</div>
 
 					<div class="wrap-input100 validate-input">
-						<input class="input100" type="text" name="fname" placeholder="Last Name" id="lname">
+						<input class="input100" type="text" placeholder="Last Name" id="lname" required>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-user" aria-hidden="true"></i>
 						</span>
 					</div>
 
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="text" placeholder="Username" id="username" required>
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</span>
+					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="email" name="email" placeholder="Email" id="email">
+						<input class="input100" type="email" placeholder="Email" id="email" required>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -63,7 +74,7 @@
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" name="password" placeholder="Password" id="password">
+						<input class="input100" type="password" placeholder="Password" id="password" required>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
@@ -72,7 +83,7 @@
 
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" name="password" placeholder="Confirm Password" id="password">
+						<input class="input100" type="password" placeholder="Confirm Password" id="confirm" required>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-check-circle" aria-hidden="true"></i>
@@ -80,10 +91,8 @@
 					</div>
 					
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn"> <a href="login.php">
-						Register</a>
-					</button>
-				</div>
+						<input type="button" name="register" id="register" class="login100-form-btn register" value="Register" />
+					</div>
 
 				<div class="text-center p-t-12">
 					<span class="txt1">
@@ -108,10 +117,56 @@
 <script src="vendor/select2/select2.min.js"></script>
 <script src="vendor/tilt/tilt.jquery.min.js"></script>
 
-<script >
+
+
+
+<script>
 	$('.js-tilt').tilt({
 		scale: 1.1
 	})
+
+	$(".register").click(function(){
+		 // document.getElementById("#send_orders").disabled = false;
+		 var fname = $('#fname').val();
+		 var lname = $('#lname').val();
+		 var username = $('#username').val();
+		 var email = $('#email').val();
+		 var password = $('#password').val();
+		 var confirm = $('#confirm').val();
+		 var register = "register";
+				//alert(prod_price);
+				if((fname != "") && (lname != "") && (username != "") && (email != "") && (password != "") && (confirm != ""))
+				{
+					$.ajax({
+						url:"action.php",
+						method:"POST",
+						data:{fname:fname, lname:lname, username:username, password:password, confirm:confirm, register:register},
+						success:function(data)
+						{
+							alert("qwe");
+							swal({
+								type: 'success',
+								title: 'Successfully Added into Cart',
+								showConfirmButton: false,
+								timer: 1500
+								
+							})
+						}
+					});
+				}
+				else
+				{
+					alert("wao");
+					swal({
+						type: 'error',
+						title: 'Please fill all values',
+						showConfirmButton: false,
+						timer: 1750
+					})
+				}
+			});
+
+
 </script>
 
 </body>
