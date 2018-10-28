@@ -35,7 +35,7 @@
                     <div class="header-right">
                         <ul class="list-unstyled list-inline">
                             <li><a href="login.php"><i class="fa fa-user"></i> Login</a></li>
-                            <li><a href="#"><i class="fa fa-user"></i>  Register</a></li>
+                            <li><a href="register.php"><i class="fa fa-user"></i>  Register</a></li>
                         </ul>
                     </div>
                 </div>
