@@ -6,7 +6,7 @@ session_start();
 if(isset($_POST['register'])) 
 {
 
-	echo "1";
+	
 	
 }
 
